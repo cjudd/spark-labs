@@ -2,7 +2,7 @@ package net.javajudd.spark.labs
 
 import org.apache.spark.sql.SparkSession
 
-object SimpleHeroRDD {
+object SimpleHeroSparkApp {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
       .appName("SimpleHeroRDD")
@@ -15,6 +15,13 @@ object SimpleHeroRDD {
     rdd.foreach(println)
 
     println(s"count: ${rdd.count()}")
+
+    val sortedRdd = rdd.sortBy(_._1, ascending = true, numPartitions = 1)
+    println("Sorted:")
+    sortedRdd.foreach(println)
+
+    val groupByRdd = rdd.groupBy(_._2)
+    groupByRdd.foreach(println)
 
     rdd.saveAsTextFile("/tmp/heros")
   }
