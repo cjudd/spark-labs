@@ -3,23 +3,17 @@
   <groupId>net.javajudd</groupId>
   <artifactId>spark-labs</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
   <name>${project.artifactId}</name>
-  <description>My wonderfull scala app</description>
-  <inceptionYear>2018</inceptionYear>
-  <licenses>
-    <license>
-      <name>My License</name>
-      <url>http://....</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
+  <description>Spark Labs</description>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <encoding>UTF-8</encoding>
-    <scala.version>2.12.6</scala.version>
-    <scala.compat.version>2.12</scala.compat.version>
+    <scala.compat.version>2.11</scala.compat.version>
+    <scala.version>${scala.compat.version}.12</scala.version>
+    <spark.version>2.4.0</spark.version>
     <spec2.version>4.2.0</spec2.version>
   </properties>
 
@@ -28,6 +22,18 @@
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
       <version>${scala.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-core_${scala.compat.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.spark</groupId>
+      <artifactId>spark-sql_${scala.compat.version}</artifactId>
+      <version>${spark.version}</version>
+      <scope>provided</scope>
     </dependency>
 
     <!-- Test -->
