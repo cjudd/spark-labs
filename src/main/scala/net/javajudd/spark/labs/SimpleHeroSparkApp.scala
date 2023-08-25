@@ -16,9 +16,9 @@ object SimpleHeroSparkApp {
 
     println(s"count: ${rdd.count()}")
 
-    val sortedRdd = rdd.sortBy(_._1, ascending = true, numPartitions = 1)
+     val sortedRdd = rdd.sortBy(_._1)
     println("Sorted:")
-    sortedRdd.foreach(println)
+    sortedRdd.collect().foreach(println)
 
     val groupByRdd = rdd.groupBy(_._2)
     groupByRdd.foreach(println)
