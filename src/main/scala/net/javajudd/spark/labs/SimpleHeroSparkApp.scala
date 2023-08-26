@@ -16,13 +16,15 @@ object SimpleHeroSparkApp {
 
     println(s"count: ${rdd.count()}")
 
-     val sortedRdd = rdd.sortBy(_._1)
+    val sortedRdd = rdd.sortBy(_._1)
+    //val sortedRdd = rdd.sortBy(_._1).collect() // should not be used with large result sets
+    //val sortedRdd = rdd.sortBy(_._1,numPartitions = 1)
     println("Sorted:")
-    sortedRdd.collect().foreach(println)
+    sortedRdd.foreach(println)
 
     val groupByRdd = rdd.groupBy(_._2)
     groupByRdd.foreach(println)
 
-    rdd.saveAsTextFile("/tmp/heros")
+    sortedRdd.saveAsTextFile("/tmp/heros")
   }
 }
