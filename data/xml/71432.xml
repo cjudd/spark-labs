@@ -1,0 +1,24 @@
+<substance id="substance/pt/71432">
+    <substance-uri registry-number="71-43-2">substance/pt/71432</substance-uri>
+    <display-name>Benzene</display-name>
+    <molecular-weight>78.11</molecular-weight>
+    <molecular-formula>
+        <formula>C<subscript>6</subscript>H<subscript>6</subscript></formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Benzene</name>
+        <name>Benzol</name>
+        <name>Coal naphtha</name>
+        <name>Cyclohexatriene</name>
+        <name>Phene</name>
+        <name>Pyrobenzol</name>
+        <name>MeSH ID: D001554</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string>InChI=1S/C6H6/c1-2-4-6-5-3-1/h1-6H</inchi-string>
+            <inchi-key>InChIKey=UHOVQNZJYSORNB-UHFFFAOYSA-N</inchi-key>
+        </inchi>
+        <smiles>C</smiles>
+    </structure>
+</substance>

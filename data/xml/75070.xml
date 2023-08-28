@@ -1,0 +1,22 @@
+<substance id="substance/pt/75070">
+    <substance-uri registry-number="75-07-0">substance/pt/75070</substance-uri>
+    <display-name>Acetaldehyde</display-name>
+    <molecular-weight>44.05</molecular-weight>
+    <molecular-formula>
+        <formula>C<subscript>2</subscript>H<subscript>4</subscript>O</formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Acetaldehyde</name>
+        <name>Ethanal</name>
+        <name>NSC 7594</name>
+        <name>Ethyl aldehyde</name>
+        <name>MeSH ID: D000079</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string>InChI=1S/C2H4O/c1-2-3/h2H,1H3</inchi-string>
+            <inchi-key>InChIKey=IKHGUXGNUITLKF-UHFFFAOYSA-N</inchi-key>
+        </inchi>
+        <smiles>C(C)=O</smiles>
+    </structure>
+</substance>

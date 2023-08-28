@@ -1,0 +1,26 @@
+<substance id="substance/pt/59303">
+    <substance-uri registry-number="59-30-3">substance/pt/59303</substance-uri>
+    <display-name>Folic acid</display-name>
+    <molecular-weight>441.40</molecular-weight>
+    <molecular-formula>
+        <formula>C<subscript>19</subscript>H<subscript>19</subscript>N<subscript>7</subscript>O<subscript>6</subscript></formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Folic acid</name>
+        <name>Vitamin M</name>
+        <name>Pteroylglutamic acid</name>
+        <name>Vitamin M</name>
+        <name>PGA</name>
+        <name>Liver Lactobacillus casei factor</name>
+        <name>Cytofol</name>
+        <name>Millafol</name>
+        <name>MeSH ID: D005492</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string>InChI=1S/C19H19N7O6/c20-19-25-15-14(17(30)26-19)23-11(8-22-15)7-21-10-3-1-9(2-4-10)16(29)24-12(18(31)32)5-6-13(27)28/h1-4,8,12,21H,5-7H2,(H,24,29)(H,27,28)(H,31,32)(H3,20,22,25,26,30)</inchi-string>
+            <inchi-key>InChIKey=OVBPIULPVIDEAO-UHFFFAOYSA-N</inchi-key>
+        </inchi>
+        <smiles>O=C1C=2C(NC=C(CNC3=CC=C(C(NC(CCC(O)=O)C(O)=O)=O)C=C3)N2)=NC(N)=N1</smiles>
+    </structure>
+</substance>

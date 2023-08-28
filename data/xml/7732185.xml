@@ -1,0 +1,23 @@
+<substance id="substance/pt/7732185">
+    <substance-uri registry-number="7732-18-5">substance/pt/7732185</substance-uri>
+    <display-name>Water</display-name>
+    <molecular-weight></molecular-weight>
+    <molecular-formula>
+        <formula>H<subscript>2</subscript>O</formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Water</name>
+        <name>Hydrogen oxide (H2O)</name>
+        <name>Distilled water</name>
+        <name>Aquafina</name>
+        <name>Dihydrogen oxide</name>
+        <name>MeSH ID: D014867</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string>InChI=1S/H2O/h1H2</inchi-string>
+            <inchi-key>InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N</inchi-key>
+        </inchi>
+        <smiles>O</smiles>
+    </structure>
+</substance>

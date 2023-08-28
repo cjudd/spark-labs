@@ -1,0 +1,26 @@
+<substance id="substance/pt/50782">
+    <substance-uri registry-number="50-78-2">substance/pt/50782</substance-uri>
+    <display-name>Asprin</display-name>
+    <molecular-weight>180.16</molecular-weight>
+    <molecular-formula>
+        <formula>C<subscript>9</subscript>H<subscript>8</subscript>O<subscript>4</subscript></formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Asprin</name>
+        <name>Rhodine</name>
+        <name>Aceticyl</name>
+        <name>Acetosal</name>
+        <name>Acetosalic acid</name>
+        <name>Acetylsal</name>
+        <name>Nu-seals</name>
+        <name>Gelprin</name>
+        <name>Aspirdrops</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string>InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)</inchi-string>
+            <inchi-key>InChIKey=BSYNRYMUTXBXSQ-UHFFFAOYSA-N</inchi-key>
+        </inchi>
+        <smiles>C(O)(=O)C1=C(OC(C)=O)C=CC=C1</smiles>
+    </structure>
+</substance>

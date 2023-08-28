@@ -1,0 +1,22 @@
+<substance id="substance/pt/74828">
+    <substance-uri registry-number="74-82-8">substance/pt/74828</substance-uri>
+    <display-name>Methane</display-name>
+    <molecular-weight></molecular-weight>
+    <molecular-formula>
+        <formula>CH<subscript>4</subscript></formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Methane</name>
+        <name>Marsh gas</name>
+        <name>Methyl hydride</name>
+        <name>R 50</name>
+        <name>MeSH ID: D008697</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string>InChI=1S/CH4/h1H4</inchi-string>
+            <inchi-key>InChIKey=VNWKTOKETHGBQD-UHFFFAOYSA-N</inchi-key>
+        </inchi>
+        <smiles>C</smiles>
+    </structure>
+</substance>

@@ -1,0 +1,22 @@
+<substance id="substance/pt/110156">
+    <substance-uri registry-number="110-15-6">substance/pt/110156</substance-uri>
+    <display-name>Succinic acid</display-name>
+    <molecular-weight>118.09</molecular-weight>
+    <molecular-formula>
+        <formula>C<subscript>4</subscript>H<subscript>6</subscript>O<subscript>4</subscript></formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Succinic acid</name>
+        <name>Butanedioic</name>
+        <name>Amber acid</name>
+        <name>Wormwood acid</name>
+        <name>MeSH ID: D019802</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string>InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)</inchi-string>
+            <inchi-key>InChIKey=KDYFGRWQOYBRFD-UHFFFAOYSA-N</inchi-key>
+        </inchi>
+        <smiles>C(CC(O)=O)C(O)=O</smiles>
+    </structure>
+</substance>

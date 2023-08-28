@@ -1,0 +1,22 @@
+<substance id="substance/pt/8001250">
+    <substance-uri registry-number="8001-25-0">substance/pt/8001250</substance-uri>
+    <display-name>Olive oil</display-name>
+    <molecular-weight></molecular-weight>
+    <molecular-formula>
+        <formula>Unspecified</formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Olive oil</name>
+        <name>Sulfur olive oil</name>
+        <name>Olea europaea oil</name>
+        <name>Cropure oil</name>
+        <name>Novox</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string></inchi-string>
+            <inchi-key></inchi-key>
+        </inchi>
+        <smiles></smiles>
+    </structure>
+</substance>

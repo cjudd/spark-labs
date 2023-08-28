@@ -1,0 +1,25 @@
+<substance id="substance/pt/7439954">
+    <substance-uri registry-number="7439-95-4">substance/pt/7439954</substance-uri>
+    <display-name>Water</display-name>
+    <molecular-weight></molecular-weight>
+    <molecular-formula>
+        <formula>Mg</formula>
+    </molecular-formula>
+    <substance-name>
+        <name>Magnesium</name>
+        <name>Rieke's active magnesium</name>
+        <name>PK 31</name>
+        <name>Magnum Forte</name>
+        <name>XH-Mg 010</name>
+        <name>Tervalloy</name>
+        <name>Hypermagnesemia</name>
+        <name>MeSH ID: D008274</name>
+    </substance-name>
+    <structure>
+        <inchi>
+            <inchi-string>InChI=1S/H2O/h1H2</inchi-string>
+            <inchi-key>InChIKey=XLYOFNOQVPJJNP-UHFFFAOYSA-N</inchi-key>
+        </inchi>
+        <smiles>O</smiles>
+    </structure>
+</substance>
