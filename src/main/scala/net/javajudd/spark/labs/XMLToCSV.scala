@@ -27,6 +27,7 @@ class XMLToCSV(@transient spark: SparkSession, inputPath: String, outputPath: St
 
     val outputDF = outputRdd.toDF("Substance URI", "Registry Number", "Display Name", "Formula", "Synonyms")
     outputDF
+      .orderBy("Display Name")
       .repartition(numPartitions = 1)
       .write
       .option("header", "true")
