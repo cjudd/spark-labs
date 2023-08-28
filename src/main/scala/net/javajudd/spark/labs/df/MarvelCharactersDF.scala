@@ -26,15 +26,31 @@ object MarvelCharactersRDD {
     characterDF.createOrReplaceTempView("characters")
 
     println("Races")
-    spark.sql("SELECT distinct(race) FROM characters")
-      .show(10)
+    val raceDF = spark.sql("SELECT distinct(race) FROM characters")
+    raceDF
+      .repartition(1)
+      .write
+      .option("header", true)
+      .csv(outputDir + "/race")
+    raceDF.show(10)
 
     println("Heroes")
-    spark.sql("SELECT Name FROM characters where Alignment_x = 'good'")
-      .show(10)
+    val heroDF = spark.sql("SELECT Name FROM characters where Alignment_x = 'good'")
+    heroDF
+      .repartition(1)
+      .write
+      .option("header", true)
+      .csv(outputDir + "/hero")
+    heroDF.show(10)
 
     println("Flight")
-    spark.sql("SELECT Name FROM characters where Flight = 'True'")
-      .show(10)
+    val flightDF = spark.sql("SELECT Name FROM characters where Flight = 'True'")
+    flightDF
+      .repartition(1)
+      .write
+      .option("header", true)
+      .csv(outputDir + "/flight")
+    flightDF.show(10)
+
   }
 }

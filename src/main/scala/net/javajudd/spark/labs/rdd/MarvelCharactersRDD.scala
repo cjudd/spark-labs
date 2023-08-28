@@ -1,4 +1,4 @@
-package net.javajudd.spark.labs
+package net.javajudd.spark.labs.rdd
 
 import org.apache.spark.sql.SparkSession
 
