@@ -39,9 +39,6 @@ object XMLToCSV {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
       .appName("XML to CSV")
-      .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer")
-      .config("spark.hadoop.mapred.output.compress", "false")
-      .config("spark.speculation", "false")
       .getOrCreate()
 
     var inputPath = ""
