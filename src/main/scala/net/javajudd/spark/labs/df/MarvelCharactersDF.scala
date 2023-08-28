@@ -8,7 +8,7 @@ object MarvelCharactersRDD {
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
-      .appName("Marvel Characters RDD")
+      .appName("Marvel Characters DataFrame")
       .getOrCreate()
 
     val inputFile = args(0)

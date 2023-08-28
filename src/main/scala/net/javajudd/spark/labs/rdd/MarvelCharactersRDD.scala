@@ -15,7 +15,7 @@ object MarvelCharactersRDD {
     val outputDir = args(1)
 
     val csvRdd = spark.sparkContext.textFile(inputFile)
-    val heroRdd = csvRdd
+    val characterRdd = csvRdd
       .filter(!_.startsWith(",ID,Name,Alignment_x,"))
       .map(row => {
         val fields = row.split(",").map(_.trim)
@@ -26,21 +26,21 @@ object MarvelCharactersRDD {
       })
 
     // list distinct races
-    heroRdd
+    characterRdd
       .map(c => c.race)
       .distinct()
       .sortBy(r => r)
       .saveAsTextFile(outputDir + "/race")
 
     // list heroes
-    heroRdd
+    characterRdd
       .filter(_.alignment == "good")
       .map(c => c.name)
       .sortBy(n => n)
       .saveAsTextFile(outputDir + "/heros")
 
     // list heroes with flight
-    heroRdd
+    characterRdd
       .filter(_.flight)
       .map(c => c.name)
       .sortBy(n => n)
