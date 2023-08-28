@@ -2,9 +2,7 @@ package net.javajudd.spark.labs.df
 
 import org.apache.spark.sql.SparkSession
 
-case class Character(id: Int, name: String, alignment: String, race: String, height: Double, flight: Boolean)
-
-object MarvelCharactersRDD {
+object MarvelCharactersDF {
 
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
