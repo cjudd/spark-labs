@@ -20,7 +20,7 @@ object MarvelCharactersRDD {
       .map(row => {
         val fields = row.split(",").map(_.trim)
         val flight = if(fields.length >= 27) {
-          if(fields(27).toLowerCase == "true") true else false
+          fields(27).toBoolean
         } else { false }
         Character(fields(1).toInt, fields(2), fields(3), fields(6), fields(10).toDouble, flight)
       })
